@@ -1,0 +1,41 @@
+body{
+    background-color: greenyellow;
+    color: blueviolet;
+    text-shadow: none;
+    text-decoration: wavy;
+    background-image: none;
+    text-decoration-color:rgb(128, 2, 255);
+    text-emphasis-color: calc();
+}
+h1{
+    font-family: 'Oswald', sans-serif;
+    background-color: rgb(3, 252, 136);
+    color: rgb(147, 9, 23);
+}
+#show sketch{
+    float:right;
+    color: darkturquoise;
+}
+#score{
+    font-size: 20px;
+    float: left;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 5px;
+}
+#timer{
+    float: right;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    margin-right: 5px;
+}
+
+@keyframes example {
+
+    from{box-shadow: 1px 1px 100px rgb(212, 0, 255);}
+    to{box-shadow: 1px 1px 100px rgb(0, 255, 213);}
+}
+
+p{
+    font-size: 25px;
+    padding-top: 10px;
+}
